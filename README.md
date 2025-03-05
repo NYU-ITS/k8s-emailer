@@ -10,7 +10,7 @@ It is available as a Helm Chart which should make it easy to install anywhere:
 helm install \
     k8s-emailer \
     oci://ghcr.io/nyu-rts/k8s-emailer/helm-charts/k8s-emailer \
-    --version 0.2.0 \
+    --version 0.2.1 \
     --namespace kube-system \
     --set emailTag=MY-ORG-CLUSTER \
     --set emailServer.host=smtp.example.org \
